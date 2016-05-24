@@ -34,7 +34,6 @@ h1{
 		position:relative;
 		padding-left: 6px;
 		padding-bottom: 7px;
-		overflow: auto;
 	}
 	.title{
 	width: 25%;
@@ -61,7 +60,7 @@ h1{
 		margin-bottom: 20px;
 		padding-left: 5px;
 		padding-bottom: 7px;
-		overflow: auto;
+		
 	}
 	#div3{
 		float: left;
@@ -71,8 +70,7 @@ h1{
 		margin-left: 10px;
 		padding-left: 5px;
 		padding-bottom: 7px;
-		overflow: auto;
-
+		
 	}
 	.title{
 	width: 25%;
@@ -108,7 +106,7 @@ h1{
 		margin-top: 28px;
 		position:relative;
 		padding-left: 6px;
-		overflow: auto;
+		
 	}
 	.title{
 	width: 25%;
