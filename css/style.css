@@ -4,29 +4,43 @@
 	box-sizing: border-box;
 }
 h1{
-	color:red;
+	color:black;
+	font-weight: bold;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	font-size: 32px;
 }
 #div1,#div2,#div3{
-	background-color: grey;
-	border: 3px solid black;
+	background-color: #999999;
+	border: 2px solid black;
+	font-family: Verdana serif;
+	font-size: 18px;
 }
-
+#title1{
+	background-color: #D59898;
+}
+#title2{
+	background-color: #C14543;
+}
+#title3{
+	background-color: #E5D198;
+}
 @media (min-width: 992px) {
 	#div1,#div2,#div3{
 		float:left;
-		width:32%;
-		height: 150px;
+		width:30.5%;
+		height: 10%;
 		box-sizing: border-box;
-		margin-left:5px;
-		margin-right: 5px;
+		margin-left:14px;
+		margin-right:14px;
 		position:relative;
 		padding-left: 6px;
+		padding-bottom: 7px;
 	}
 	.title{
 	width: 25%;
 	padding: 2.5px 5px 2.5px 5px;
-	background-color: red;
-	border: 2px solid black;
+	border: 1px solid black;
 	position: relative;
 	left:75.4%;
 	margin-top:-2.5px;
@@ -34,33 +48,36 @@ h1{
 	margin-bottom: 4px;
 }
 
-}
+} 
 
 @media (max-width: 991px) and (min-width: 768px) {
 	#div1,#div2{
 		float: left;
 		width: 47%;
 		box-sizing: border-box;
-		height: 150px;
+		height: 10%;
 		border-width: 2px;
 		margin-left: 10px;
 		margin-right: 10px;
 		margin-bottom: 20px;
+		padding-left: 5px;
+		padding-bottom: 7px;
 	}
 	#div3{
 		float: left;
 		width: 96.5%;
 		box-sizing: border-box;
 		margin-left: 10px;
+		padding-left: 5px;
+		padding-bottom: 7px;
 
 	}
 	.title{
 	width: 25%;
 	padding: 2.5px 5px 2.5px 5px;
-	background-color: red;
-	border: 2px solid black;
+	border: 1px solid black;
 	position: relative;
-	left:75.4%;
+	left:75.2%;
 	margin-top:-2.5px;
 	margin-right: -2.5px;
 	margin-bottom: 4px;
@@ -68,9 +85,28 @@ h1{
 
 }
 
-}
 
 @media (max-width: 767px){
-
+#div1,#div2,#div3{
+		box-sizing: border-box;
+		width:94%;
+		height: 6%;
+		background-color: grey;
+		margin-left:15px;
+		margin-right: 15px;
+		margin-top: 28px;
+		position:relative;
+		padding-left: 6px;
+	}
+	.title{
+	width: 25%;
+	padding: 2.5px 5px 2.5px 5px;
+	border: 1px solid black;
+	position: relative;
+	left:75.4%;
+	margin-top:-2.5px;
+	margin-right: -2.5px;
+	margin-bottom: 4px;
+}
 
 }
