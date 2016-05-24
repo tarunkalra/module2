@@ -11,7 +11,7 @@ h1{
 }
 #div1,#div2,#div3{
 	background-color: #999999;
-	border: 2px solid black;
+	border: 1px solid black;
 	font-family: Verdana serif;
 }
 #title1{
@@ -54,7 +54,7 @@ h1{
 		width: 47%;
 		box-sizing: border-box;
 		height: 10%;
-		border-width: 2px;
+		border-width: 1px;
 		margin-left: 10px;
 		margin-right: 10px;
 		margin-bottom: 20px;
@@ -98,6 +98,7 @@ h1{
 @media only screen and (max-width: 767px) {
 #div1,#div2,#div3{
 		box-sizing: border-box;
+		border: 1px solid black;
 		width:94%;
 		height: 6%;
 		background-color: grey;
